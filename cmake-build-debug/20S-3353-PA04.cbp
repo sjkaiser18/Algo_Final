@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/JT.cpp">
+			<Option target="Final"/>
+		</Unit>
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/JT.h">
+			<Option target="Final"/>
+		</Unit>
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Lexi.cpp">
+			<Option target="Final"/>
+		</Unit>
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Lexi.h">
+			<Option target="Final"/>
+		</Unit>
 		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/main.cpp">
 			<Option target="Final"/>
 		</Unit>

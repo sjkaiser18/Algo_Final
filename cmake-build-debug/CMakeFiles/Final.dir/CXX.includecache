@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/sarahkaiser/Desktop/Algo_Final/main.cpp
+/Users/sarahkaiser/Desktop/Algo_Final/JT.cpp
+JT.h
+/Users/sarahkaiser/Desktop/Algo_Final/JT.h
+
+/Users/sarahkaiser/Desktop/Algo_Final/JT.h
 iostream
+-
+math.h
 -
 

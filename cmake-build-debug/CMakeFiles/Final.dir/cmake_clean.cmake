@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Final.dir/JT.cpp.o"
+  "CMakeFiles/Final.dir/Lexi.cpp.o"
   "CMakeFiles/Final.dir/main.cpp.o"
   "Final"
   "Final.pdb"

@@ -123,6 +123,60 @@ Final/fast:
 	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/build
 .PHONY : Final/fast
 
+JT.o: JT.cpp.o
+
+.PHONY : JT.o
+
+# target to build an object file
+JT.cpp.o:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/JT.cpp.o
+.PHONY : JT.cpp.o
+
+JT.i: JT.cpp.i
+
+.PHONY : JT.i
+
+# target to preprocess a source file
+JT.cpp.i:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/JT.cpp.i
+.PHONY : JT.cpp.i
+
+JT.s: JT.cpp.s
+
+.PHONY : JT.s
+
+# target to generate assembly for a file
+JT.cpp.s:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/JT.cpp.s
+.PHONY : JT.cpp.s
+
+Lexi.o: Lexi.cpp.o
+
+.PHONY : Lexi.o
+
+# target to build an object file
+Lexi.cpp.o:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Lexi.cpp.o
+.PHONY : Lexi.cpp.o
+
+Lexi.i: Lexi.cpp.i
+
+.PHONY : Lexi.i
+
+# target to preprocess a source file
+Lexi.cpp.i:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Lexi.cpp.i
+.PHONY : Lexi.cpp.i
+
+Lexi.s: Lexi.cpp.s
+
+.PHONY : Lexi.s
+
+# target to generate assembly for a file
+Lexi.cpp.s:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Lexi.cpp.s
+.PHONY : Lexi.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Final"
+	@echo "... JT.o"
+	@echo "... JT.i"
+	@echo "... JT.s"
+	@echo "... Lexi.o"
+	@echo "... Lexi.i"
+	@echo "... Lexi.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
