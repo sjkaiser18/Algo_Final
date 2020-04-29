@@ -17,7 +17,7 @@ void Lexi<T>::shuffle(std::vector<std::pair<std::string,int>> old_vec){
 
     int n=0;
     int sos=0;
-    std::vector<int> new_vec;
+    std::vector<std::string> new_vec;
 
     int i=0;
     while(n<old_vec.size()){
@@ -25,7 +25,7 @@ void Lexi<T>::shuffle(std::vector<std::pair<std::string,int>> old_vec){
 
        for(int j=0;j<old_vec.size();j++){
            if(i==old_vec[j].second){
-               new_vec.push_back(i);
+               new_vec.push_back(old_vec[i].first);
                 old_vec.erase(old_vec.begin()+j);
            }
        }

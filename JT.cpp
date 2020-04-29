@@ -16,13 +16,17 @@ void JT<T>::shuffle(std::vector<std::pair<std::string,int>> old_vec){
 
     int n=old_vec.size();
     int i;
-    int temp;
+    std::string tempf;
+    int temps;
 
     while(n>0){
        i=floor(rand()%n--);
-       temp=old_vec[n].second;
+       tempf=old_vec[n].first;
+       temps=old_vec[n].second;
+       old_vec[n].first=old_vec[i].first;
        old_vec[n].second=old_vec[i].second;
-       old_vec[i].second=temp;
+       old_vec[i].first=tempf;
+       old_vec[i].second=temps;
       }//end of while loop
 
 }

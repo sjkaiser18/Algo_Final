@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/sarahkaiser/Desktop/Algo_Final/JT.h
-iostream
--
-math.h
--
-unordered_map
--
-vector
--
-
 /Users/sarahkaiser/Desktop/Algo_Final/Lexi.cpp
 Lexi.h
 /Users/sarahkaiser/Desktop/Algo_Final/Lexi.h
@@ -28,19 +18,5 @@ unordered_map
 math.h
 -
 vector
--
-
-/Users/sarahkaiser/Desktop/Algo_Final/main.cpp
-Lexi.h
-/Users/sarahkaiser/Desktop/Algo_Final/Lexi.h
-JT.h
-/Users/sarahkaiser/Desktop/Algo_Final/JT.h
-iostream
--
-chrono
--
-fstream
--
-unordered_map
 -
 
