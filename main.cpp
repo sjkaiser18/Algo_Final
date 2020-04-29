@@ -20,25 +20,21 @@ int main(int argc, char* argv[]){
     std::ifstream inputFile;
     timingFile.open("timing.txt");
     timingFile.clear();
-    //input some sort of casino card testing
-    //randomized surveys- how big sites like Amazon could get random feedback
-    //BINGO?
-    //randomization in clinical trials- list of patients
-
 
     Lexi<std::string> lex;
     JT<std::string> jt;
     for(int i =0;i<tests->size();i++){
         inputFile.open(tests[i]);
         int count=0;
-        std::unordered_map<std::string, int> umap;//this hashes the values as to not do strcmp for every value
-        std::unordered_map<int, std::string> switch_out; //this is just to get values for the output
+        std::vector<std::pair<std::string,int>> old_vec;
+        //std::unordered_map<std::string, int> umap;//this hashes the values as to not do strcmp for every value
+        //std::unordered_map<int, std::string> switch_out; //this is just to get values for the output
         while(inputFile.good()) {
             std::string item;
             getline(inputFile, item);
             std::cout << item << " ";
-            umap.insert(std::make_pair(item, count));
-            switch_out.insert(std::make_pair(count,item));
+            old_vec.push_back(std::make_pair(item, count));
+            //umap.insert(std::make_pair(item,count));
             count++;
         }
         inputFile.close();
@@ -48,7 +44,7 @@ int main(int argc, char* argv[]){
         auto start = high_resolution_clock::now();
         std::cout << "Doin time, and the living's easy" << std::endl;
         //i will have to hash the values first, probably in main, and then send them to the functions
-        val == 1 ? lex.shuffle() : jt.shuffle();
+        val == 1 ? lex.shuffle(old_vec) : jt.shuffle(old_vec);
         auto stop = high_resolution_clock::now();
 
         auto duration = duration_cast<microseconds>(stop - start);

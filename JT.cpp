@@ -2,6 +2,7 @@
 // Created by Sarah Kaiser on 4/25/20.
 //
 
+#include <unordered_map>
 #include "JT.h"
 template <typename T>
 JT<T>::JT(){
@@ -9,22 +10,21 @@ JT<T>::JT(){
 }
 
 template <typename T>
-void JT<T>::shuffle(){
-
+void JT<T>::shuffle(std::vector<std::pair<std::string,int>> old_vec){
     //will need to pass in the specific vector for that input
     std::cout<<"Shuffling... the Johnson-Trotter ways!"<<std::endl;
 
-    //int n=vector.length;
+    int n=old_vec.size();
     int i;
     int temp;
-    /*
-     * while(n>0){
-     *  i=floor(random()*n--);
-     *  temp=vector.at(n);
-     *  vector.at(n)=vector.at(i);
-     *  vector.at(i)=temp;
-     * }//end of while loop
-     */
+
+    while(n>0){
+       i=floor(rand()%n--);
+       temp=old_vec[n].second;
+       old_vec[n].second=old_vec[i].second;
+       old_vec[i].second=temp;
+      }//end of while loop
+
 }
 
 template <typename T>
