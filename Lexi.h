@@ -6,6 +6,7 @@
 #define INC_20S_3353_PA04_LEXI_H
 #include <iostream>
 #include <unordered_map>
+#include <math.h>
 #include <vector>
 
 template <class T>
