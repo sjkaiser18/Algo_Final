@@ -34,9 +34,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Platform/UnixPaths.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
+  "../bingo.txt"
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
+  "../hoyle.txt"
+  "../raffle.txt"
+  "../survey_sample.txt"
   )
 
 # The corresponding makefile is:
@@ -47,6 +51,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "bingo.txt"
+  "hoyle.txt"
+  "survey_sample.txt"
+  "raffle.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

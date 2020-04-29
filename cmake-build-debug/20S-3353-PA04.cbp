@@ -98,5 +98,17 @@
 		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/bingo.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/hoyle.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/raffle.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/survey_sample.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -6,13 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/sarahkaiser/Desktop/Algo_Final/JT.cpp
-JT.h
-/Users/sarahkaiser/Desktop/Algo_Final/JT.h
-
 /Users/sarahkaiser/Desktop/Algo_Final/JT.h
 iostream
 -
 math.h
+-
+
+/Users/sarahkaiser/Desktop/Algo_Final/Lexi.h
+iostream
+-
+
+/Users/sarahkaiser/Desktop/Algo_Final/main.cpp
+Lexi.h
+/Users/sarahkaiser/Desktop/Algo_Final/Lexi.h
+JT.h
+/Users/sarahkaiser/Desktop/Algo_Final/JT.h
+iostream
+-
+chrono
+-
+fstream
+-
+unordered_map
 -
 

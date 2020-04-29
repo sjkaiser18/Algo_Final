@@ -11,10 +11,10 @@ set (EXE_NAME Final)
 #   set (input02 "train_target.csv")
 # etc....
 
-set (input01 "")
-set (input02 "")
-set (input03 "")
-set (input04 "")
+set (input01 "bingo.txt")
+set (input02 "hoyle.txt")
+set (input03 "survey_sample.txt")
+set (input04 "raffle.txt")
 
 #
 ##########################################
