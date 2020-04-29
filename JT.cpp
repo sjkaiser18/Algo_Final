@@ -28,6 +28,10 @@ void JT<T>::shuffle(std::vector<std::pair<std::string,int>> old_vec){
        old_vec[i].first=tempf;
        old_vec[i].second=temps;
       }//end of while loop
+      std::cout<<"New vector = ";
+for(int j=0;j<old_vec.size();j++){
+    std::cout<<old_vec[j].first<<" ";
+}
 
 }
 

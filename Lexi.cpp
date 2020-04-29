@@ -32,6 +32,11 @@ void Lexi<T>::shuffle(std::vector<std::pair<std::string,int>> old_vec){
      n++;
     }//end of while loop
 
+    std::cout<<"New vector = ";
+    for(int j=0;j<new_vec.size();j++){
+        std::cout<<new_vec[j]<<" ";
+    }
+
 }
 
 template <typename T>

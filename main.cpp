@@ -23,18 +23,15 @@ int main(int argc, char* argv[]){
 
     Lexi<std::string> lex;
     JT<std::string> jt;
-    for(int i =0;i<tests->size();i++){
+    std::cout<<"tests->size = " <<tests->size()<< " ";
+    for(int i =0;i<4;i++){
         inputFile.open(tests[i]);
         int count=0;
         std::vector<std::pair<std::string,int>> old_vec;
-        //std::unordered_map<std::string, int> umap;//this hashes the values as to not do strcmp for every value
-        //std::unordered_map<int, std::string> switch_out; //this is just to get values for the output
         while(inputFile.good()) {
             std::string item;
             getline(inputFile, item);
-            std::cout << item << " ";
             old_vec.push_back(std::make_pair(item, count));
-            //umap.insert(std::make_pair(item,count));
             count++;
         }
         inputFile.close();
