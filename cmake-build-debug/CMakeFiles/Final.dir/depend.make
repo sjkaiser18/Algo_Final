@@ -7,11 +7,15 @@ CMakeFiles/Final.dir/FY.cpp.o: ../FY.h
 CMakeFiles/Final.dir/Lexi.cpp.o: ../Lexi.cpp
 CMakeFiles/Final.dir/Lexi.cpp.o: ../Lexi.h
 
-CMakeFiles/Final.dir/Mix.cpp.o: ../Mix.cpp
-CMakeFiles/Final.dir/Mix.cpp.o: ../Mix.h
+CMakeFiles/Final.dir/Random_Automatic.cpp.o: ../Random_Automatic.cpp
+CMakeFiles/Final.dir/Random_Automatic.cpp.o: ../Random_Automatic.h
+
+CMakeFiles/Final.dir/Random_Manual.cpp.o: ../Random_Manual.cpp
+CMakeFiles/Final.dir/Random_Manual.cpp.o: ../Random_Manual.h
 
 CMakeFiles/Final.dir/main.cpp.o: ../FY.h
 CMakeFiles/Final.dir/main.cpp.o: ../Lexi.h
-CMakeFiles/Final.dir/main.cpp.o: ../Mix.h
+CMakeFiles/Final.dir/main.cpp.o: ../Random_Automatic.h
+CMakeFiles/Final.dir/main.cpp.o: ../Random_Manual.h
 CMakeFiles/Final.dir/main.cpp.o: ../main.cpp
 

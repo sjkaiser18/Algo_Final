@@ -96,25 +96,39 @@ CMakeFiles/Final.dir/Lexi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Final.dir/Lexi.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sarahkaiser/Desktop/Algo_Final/Lexi.cpp -o CMakeFiles/Final.dir/Lexi.cpp.s
 
-CMakeFiles/Final.dir/Mix.cpp.o: CMakeFiles/Final.dir/flags.make
-CMakeFiles/Final.dir/Mix.cpp.o: ../Mix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sarahkaiser/Desktop/Algo_Final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Final.dir/Mix.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Final.dir/Mix.cpp.o -c /Users/sarahkaiser/Desktop/Algo_Final/Mix.cpp
+CMakeFiles/Final.dir/Random_Manual.cpp.o: CMakeFiles/Final.dir/flags.make
+CMakeFiles/Final.dir/Random_Manual.cpp.o: ../Random_Manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sarahkaiser/Desktop/Algo_Final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Final.dir/Random_Manual.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Final.dir/Random_Manual.cpp.o -c /Users/sarahkaiser/Desktop/Algo_Final/Random_Manual.cpp
 
-CMakeFiles/Final.dir/Mix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Final.dir/Mix.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sarahkaiser/Desktop/Algo_Final/Mix.cpp > CMakeFiles/Final.dir/Mix.cpp.i
+CMakeFiles/Final.dir/Random_Manual.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Final.dir/Random_Manual.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sarahkaiser/Desktop/Algo_Final/Random_Manual.cpp > CMakeFiles/Final.dir/Random_Manual.cpp.i
 
-CMakeFiles/Final.dir/Mix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Final.dir/Mix.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sarahkaiser/Desktop/Algo_Final/Mix.cpp -o CMakeFiles/Final.dir/Mix.cpp.s
+CMakeFiles/Final.dir/Random_Manual.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Final.dir/Random_Manual.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sarahkaiser/Desktop/Algo_Final/Random_Manual.cpp -o CMakeFiles/Final.dir/Random_Manual.cpp.s
+
+CMakeFiles/Final.dir/Random_Automatic.cpp.o: CMakeFiles/Final.dir/flags.make
+CMakeFiles/Final.dir/Random_Automatic.cpp.o: ../Random_Automatic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sarahkaiser/Desktop/Algo_Final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Final.dir/Random_Automatic.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Final.dir/Random_Automatic.cpp.o -c /Users/sarahkaiser/Desktop/Algo_Final/Random_Automatic.cpp
+
+CMakeFiles/Final.dir/Random_Automatic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Final.dir/Random_Automatic.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sarahkaiser/Desktop/Algo_Final/Random_Automatic.cpp > CMakeFiles/Final.dir/Random_Automatic.cpp.i
+
+CMakeFiles/Final.dir/Random_Automatic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Final.dir/Random_Automatic.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sarahkaiser/Desktop/Algo_Final/Random_Automatic.cpp -o CMakeFiles/Final.dir/Random_Automatic.cpp.s
 
 # Object files for target Final
 Final_OBJECTS = \
 "CMakeFiles/Final.dir/main.cpp.o" \
 "CMakeFiles/Final.dir/FY.cpp.o" \
 "CMakeFiles/Final.dir/Lexi.cpp.o" \
-"CMakeFiles/Final.dir/Mix.cpp.o"
+"CMakeFiles/Final.dir/Random_Manual.cpp.o" \
+"CMakeFiles/Final.dir/Random_Automatic.cpp.o"
 
 # External object files for target Final
 Final_EXTERNAL_OBJECTS =
@@ -122,10 +136,11 @@ Final_EXTERNAL_OBJECTS =
 Final: CMakeFiles/Final.dir/main.cpp.o
 Final: CMakeFiles/Final.dir/FY.cpp.o
 Final: CMakeFiles/Final.dir/Lexi.cpp.o
-Final: CMakeFiles/Final.dir/Mix.cpp.o
+Final: CMakeFiles/Final.dir/Random_Manual.cpp.o
+Final: CMakeFiles/Final.dir/Random_Automatic.cpp.o
 Final: CMakeFiles/Final.dir/build.make
 Final: CMakeFiles/Final.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sarahkaiser/Desktop/Algo_Final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Final"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sarahkaiser/Desktop/Algo_Final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Final"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Final.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,7 +4,8 @@
 
 #include "Lexi.h"
 #include "FY.h"
-#include "Mix.h"
+#include "Random_Manual.h"
+#include "Random_Automatic.h"
 
 #include <iostream>
 #include <chrono>
@@ -23,7 +24,8 @@ int main(int argc, char* argv[]){
 
     Lexi<std::string> lex;
     FY<std::string> fy;
-    Mix<std::string> mx;
+    Random_Manual<std::string> mx;
+    Random_Automatic<std::string> ax;
 
     for(int i =0;i<4;i++){
         inputFile.open(tests[i]);
@@ -48,7 +50,7 @@ int main(int argc, char* argv[]){
     int val=1;
 
 
-    while(val<4) {
+    while(val<5) {
         auto start = high_resolution_clock::now();
 
         if(val==1)
@@ -57,9 +59,11 @@ int main(int argc, char* argv[]){
                 fy.shuffle(old_vec,out_filename);
         if(val==3)
                 mx.shuffle(old_vec,out_filename);
+        if(val==3)
+            ax.shuffle(old_vec,out_filename);
         auto stop = high_resolution_clock::now();
 
-        auto duration = duration_cast<microseconds>(stop - start);
+        auto duration = duration_cast<nanoseconds>(stop - start);
         if (!timingFile.is_open()) {
             if(val==1)
                     std::cout<<"Lexographic Implementation: ";
@@ -67,8 +71,10 @@ int main(int argc, char* argv[]){
                     std::cout<<"Fisher-Yates Implementation: ";
             if(val==3)
                     std::cout<<"Mixed Implementation: ";
+            if(val==4)
+                    std::cout<<"Auto Implementation: ";
 
-            std::cout << duration.count() << " microseconds" << std::endl;
+            std::cout << duration.count() << " nanoseconds" << std::endl;
         } else {
 
             if(val==1)
@@ -76,9 +82,10 @@ int main(int argc, char* argv[]){
             if(val==2)
                     timingFile<<"Fisher-Yates Implementation: ";
             if(val==3)
-                    timingFile<<"Mixed Implementation: ";
-
-            timingFile << duration.count() << " microseconds." << std::endl;
+                    timingFile<<"Manual Implementation: ";
+            if(val==4)
+                    timingFile<<"Auto Implementation: ";
+            timingFile << duration.count() << " nanoseconds." << std::endl;
         }
         val++;
     }

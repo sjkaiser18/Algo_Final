@@ -92,10 +92,16 @@
 		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Lexi.h">
 			<Option target="Final"/>
 		</Unit>
-		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Mix.cpp">
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Random_Automatic.cpp">
 			<Option target="Final"/>
 		</Unit>
-		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Mix.h">
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Random_Automatic.h">
+			<Option target="Final"/>
+		</Unit>
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Random_Manual.cpp">
+			<Option target="Final"/>
+		</Unit>
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Random_Manual.h">
 			<Option target="Final"/>
 		</Unit>
 		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/main.cpp">

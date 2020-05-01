@@ -2,8 +2,8 @@
 // Created by Sarah Kaiser on 4/30/20.
 //
 
-#ifndef INC_20S_3353_PA04_MIX_H
-#define INC_20S_3353_PA04_MIX_H
+#ifndef INC_20S_3353_PA04_RANDOM_MANUAL_H
+#define INC_20S_3353_PA04_RANDOM_MANUAL_H
 #include <iostream>
 #include <unordered_map>
 #include <math.h>
@@ -13,14 +13,14 @@
 #include <algorithm>
 #include <chrono>
 template <class T>
-class Mix {
+class Random_Manual {
 public:
     std::ofstream outFile;
-    Mix();
+    Random_Manual();
     void shuffle(std::vector<std::pair<std::string,int>> old_vec,std::string out_filename);
-    ~Mix();
+    ~Random_Manual();
 
 };
 
 
-#endif //INC_20S_3353_PA04_MIX_H
+#endif //INC_20S_3353_PA04_RANDOM_MANUAL_H

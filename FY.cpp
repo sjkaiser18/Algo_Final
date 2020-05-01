@@ -30,18 +30,18 @@ void FY<T>::shuffle(std::vector<std::pair<std::string,int>> old_vec,std::string 
 
         outFile.open(out_filename,std::ofstream::app);
       if(!outFile.is_open()) {
-          std::cout << "Fisher-Yates Shuffle = ";
+          std::cout << "Fisher-Yates Shuffle, "<<old_vec.size()<< " items."<<std::endl;
           for (int j = 0; j < old_vec.size(); j++) {
               std::cout << old_vec[j].first << " ";
-              if(j%10==0){std::cout<<std::endl;}
+              if(j%10==1 && j!=1){std::cout<<std::endl;}
           }
           std::cout<<std::endl;
       }
     else {
-        outFile << "Fisher-Yates Shuffle = ";
+        outFile << "Fisher-Yates Shuffle, "<<old_vec.size()<< " items."<<std::endl;
         for (int j = 0; j < old_vec.size(); j++) {
             outFile << old_vec[j].first << " ";
-            if(j%10==0){outFile<<std::endl;}
+            if(j%10==1 && j!=1){outFile<<std::endl;}
         }
           outFile<<"\n\n";
     }
@@ -49,8 +49,6 @@ void FY<T>::shuffle(std::vector<std::pair<std::string,int>> old_vec,std::string 
 }
 
 template <typename T>
-FY<T>::~FY(){
-    std::cout<<"Hasta la vista"<<std::endl;
-}
+FY<T>::~FY(){}
 
 template class FY <std::string>;

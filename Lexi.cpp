@@ -33,17 +33,17 @@ void Lexi<T>::shuffle(std::vector<std::pair<std::string,int>> old_vec,std::strin
     outFile.open(out_filename,std::ofstream::app);
 
     if (!outFile.is_open()) {
-        std::cout << "Lexographical Shuffle  = ";
+        std::cout << "Lexographical Shuffle, "<<new_vec.size()<< " items."<<std::endl;
         for (int j = 0; j < new_vec.size(); j++) {
             std::cout << new_vec[j] << " ";
-            if(j%10==0){std::cout<<std::endl;}
+            if(j%10==1 && j!=1){std::cout<<std::endl;}
         }
        std::cout<<std::endl;
     } else {
-        outFile << "Lexographical Shuffle = ";
+        outFile << "Lexographical Shuffle, "<<new_vec.size()<< " items."<<std::endl;
         for (int j = 0; j < new_vec.size(); j++) {
             outFile << new_vec[j] << " ";
-            if(j%10==0){outFile<<std::endl;}
+            if(j%10==1 && j!=1){outFile<<std::endl;}
         }
         outFile<<"\n\n";
     }

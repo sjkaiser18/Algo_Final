@@ -6,7 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/sarahkaiser/Desktop/Algo_Final/FY.cpp" "/Users/sarahkaiser/Desktop/Algo_Final/cmake-build-debug/CMakeFiles/Final.dir/FY.cpp.o"
   "/Users/sarahkaiser/Desktop/Algo_Final/Lexi.cpp" "/Users/sarahkaiser/Desktop/Algo_Final/cmake-build-debug/CMakeFiles/Final.dir/Lexi.cpp.o"
-  "/Users/sarahkaiser/Desktop/Algo_Final/Mix.cpp" "/Users/sarahkaiser/Desktop/Algo_Final/cmake-build-debug/CMakeFiles/Final.dir/Mix.cpp.o"
+  "/Users/sarahkaiser/Desktop/Algo_Final/Random_Automatic.cpp" "/Users/sarahkaiser/Desktop/Algo_Final/cmake-build-debug/CMakeFiles/Final.dir/Random_Automatic.cpp.o"
+  "/Users/sarahkaiser/Desktop/Algo_Final/Random_Manual.cpp" "/Users/sarahkaiser/Desktop/Algo_Final/cmake-build-debug/CMakeFiles/Final.dir/Random_Manual.cpp.o"
   "/Users/sarahkaiser/Desktop/Algo_Final/main.cpp" "/Users/sarahkaiser/Desktop/Algo_Final/cmake-build-debug/CMakeFiles/Final.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

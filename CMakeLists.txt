@@ -25,4 +25,4 @@ foreach(file IN LISTS input01 input02 input03 input04)
 endforeach()
 
 set(CMAKE_CXX_STANDARD 14)
-add_executable(${EXE_NAME} main.cpp FY.h FY.cpp Lexi.h Lexi.cpp Mix.h Mix.cpp)
+add_executable(${EXE_NAME} main.cpp FY.h FY.cpp Lexi.h Lexi.cpp Random_Manual.h Random_Manual.cpp Random_Automatic.h Random_Automatic.cpp)

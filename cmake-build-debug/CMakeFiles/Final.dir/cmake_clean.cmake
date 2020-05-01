@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Final.dir/FY.cpp.o"
   "CMakeFiles/Final.dir/Lexi.cpp.o"
-  "CMakeFiles/Final.dir/Mix.cpp.o"
+  "CMakeFiles/Final.dir/Random_Automatic.cpp.o"
+  "CMakeFiles/Final.dir/Random_Manual.cpp.o"
   "CMakeFiles/Final.dir/main.cpp.o"
   "Final"
   "Final.pdb"

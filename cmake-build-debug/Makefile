@@ -177,32 +177,59 @@ Lexi.cpp.s:
 	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Lexi.cpp.s
 .PHONY : Lexi.cpp.s
 
-Mix.o: Mix.cpp.o
+Random_Automatic.o: Random_Automatic.cpp.o
 
-.PHONY : Mix.o
+.PHONY : Random_Automatic.o
 
 # target to build an object file
-Mix.cpp.o:
-	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Mix.cpp.o
-.PHONY : Mix.cpp.o
+Random_Automatic.cpp.o:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Random_Automatic.cpp.o
+.PHONY : Random_Automatic.cpp.o
 
-Mix.i: Mix.cpp.i
+Random_Automatic.i: Random_Automatic.cpp.i
 
-.PHONY : Mix.i
+.PHONY : Random_Automatic.i
 
 # target to preprocess a source file
-Mix.cpp.i:
-	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Mix.cpp.i
-.PHONY : Mix.cpp.i
+Random_Automatic.cpp.i:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Random_Automatic.cpp.i
+.PHONY : Random_Automatic.cpp.i
 
-Mix.s: Mix.cpp.s
+Random_Automatic.s: Random_Automatic.cpp.s
 
-.PHONY : Mix.s
+.PHONY : Random_Automatic.s
 
 # target to generate assembly for a file
-Mix.cpp.s:
-	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Mix.cpp.s
-.PHONY : Mix.cpp.s
+Random_Automatic.cpp.s:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Random_Automatic.cpp.s
+.PHONY : Random_Automatic.cpp.s
+
+Random_Manual.o: Random_Manual.cpp.o
+
+.PHONY : Random_Manual.o
+
+# target to build an object file
+Random_Manual.cpp.o:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Random_Manual.cpp.o
+.PHONY : Random_Manual.cpp.o
+
+Random_Manual.i: Random_Manual.cpp.i
+
+.PHONY : Random_Manual.i
+
+# target to preprocess a source file
+Random_Manual.cpp.i:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Random_Manual.cpp.i
+.PHONY : Random_Manual.cpp.i
+
+Random_Manual.s: Random_Manual.cpp.s
+
+.PHONY : Random_Manual.s
+
+# target to generate assembly for a file
+Random_Manual.cpp.s:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Random_Manual.cpp.s
+.PHONY : Random_Manual.cpp.s
 
 main.o: main.cpp.o
 
@@ -246,9 +273,12 @@ help:
 	@echo "... Lexi.o"
 	@echo "... Lexi.i"
 	@echo "... Lexi.s"
-	@echo "... Mix.o"
-	@echo "... Mix.i"
-	@echo "... Mix.s"
+	@echo "... Random_Automatic.o"
+	@echo "... Random_Automatic.i"
+	@echo "... Random_Automatic.s"
+	@echo "... Random_Manual.o"
+	@echo "... Random_Manual.i"
+	@echo "... Random_Manual.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
