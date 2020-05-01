@@ -123,32 +123,32 @@ Final/fast:
 	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/build
 .PHONY : Final/fast
 
-JT.o: JT.cpp.o
+FY.o: FY.cpp.o
 
-.PHONY : JT.o
+.PHONY : FY.o
 
 # target to build an object file
-JT.cpp.o:
-	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/JT.cpp.o
-.PHONY : JT.cpp.o
+FY.cpp.o:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/FY.cpp.o
+.PHONY : FY.cpp.o
 
-JT.i: JT.cpp.i
+FY.i: FY.cpp.i
 
-.PHONY : JT.i
+.PHONY : FY.i
 
 # target to preprocess a source file
-JT.cpp.i:
-	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/JT.cpp.i
-.PHONY : JT.cpp.i
+FY.cpp.i:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/FY.cpp.i
+.PHONY : FY.cpp.i
 
-JT.s: JT.cpp.s
+FY.s: FY.cpp.s
 
-.PHONY : JT.s
+.PHONY : FY.s
 
 # target to generate assembly for a file
-JT.cpp.s:
-	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/JT.cpp.s
-.PHONY : JT.cpp.s
+FY.cpp.s:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/FY.cpp.s
+.PHONY : FY.cpp.s
 
 Lexi.o: Lexi.cpp.o
 
@@ -176,6 +176,33 @@ Lexi.s: Lexi.cpp.s
 Lexi.cpp.s:
 	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Lexi.cpp.s
 .PHONY : Lexi.cpp.s
+
+Mix.o: Mix.cpp.o
+
+.PHONY : Mix.o
+
+# target to build an object file
+Mix.cpp.o:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Mix.cpp.o
+.PHONY : Mix.cpp.o
+
+Mix.i: Mix.cpp.i
+
+.PHONY : Mix.i
+
+# target to preprocess a source file
+Mix.cpp.i:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Mix.cpp.i
+.PHONY : Mix.cpp.i
+
+Mix.s: Mix.cpp.s
+
+.PHONY : Mix.s
+
+# target to generate assembly for a file
+Mix.cpp.s:
+	$(MAKE) -f CMakeFiles/Final.dir/build.make CMakeFiles/Final.dir/Mix.cpp.s
+.PHONY : Mix.cpp.s
 
 main.o: main.cpp.o
 
@@ -213,12 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Final"
-	@echo "... JT.o"
-	@echo "... JT.i"
-	@echo "... JT.s"
+	@echo "... FY.o"
+	@echo "... FY.i"
+	@echo "... FY.s"
 	@echo "... Lexi.o"
 	@echo "... Lexi.i"
 	@echo "... Lexi.s"
+	@echo "... Mix.o"
+	@echo "... Mix.i"
+	@echo "... Mix.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

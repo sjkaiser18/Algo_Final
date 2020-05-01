@@ -80,16 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/JT.cpp">
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/FY.cpp">
 			<Option target="Final"/>
 		</Unit>
-		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/JT.h">
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/FY.h">
 			<Option target="Final"/>
 		</Unit>
 		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Lexi.cpp">
 			<Option target="Final"/>
 		</Unit>
 		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Lexi.h">
+			<Option target="Final"/>
+		</Unit>
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Mix.cpp">
+			<Option target="Final"/>
+		</Unit>
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/Mix.h">
 			<Option target="Final"/>
 		</Unit>
 		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/main.cpp">
@@ -104,10 +110,10 @@
 		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/hoyle.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/raffle.txt">
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/patient_trials.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/survey_sample.txt">
+		<Unit filename="/Users/sarahkaiser/Desktop/Algo_Final/raffle.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

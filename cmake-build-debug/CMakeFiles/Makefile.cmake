@@ -39,8 +39,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
   "../hoyle.txt"
+  "../patient_trials.txt"
   "../raffle.txt"
-  "../survey_sample.txt"
   )
 
 # The corresponding makefile is:
@@ -53,7 +53,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "bingo.txt"
   "hoyle.txt"
-  "survey_sample.txt"
+  "patient_trials.txt"
   "raffle.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )

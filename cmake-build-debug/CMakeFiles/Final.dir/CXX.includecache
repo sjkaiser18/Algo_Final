@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/sarahkaiser/Desktop/Algo_Final/JT.h
-iostream
--
-math.h
--
-unordered_map
--
-vector
--
+/Users/sarahkaiser/Desktop/Algo_Final/Mix.cpp
+Mix.h
+/Users/sarahkaiser/Desktop/Algo_Final/Mix.h
 
-/Users/sarahkaiser/Desktop/Algo_Final/Lexi.h
+/Users/sarahkaiser/Desktop/Algo_Final/Mix.h
 iostream
 -
 unordered_map
@@ -24,19 +18,13 @@ unordered_map
 math.h
 -
 vector
--
-
-/Users/sarahkaiser/Desktop/Algo_Final/main.cpp
-Lexi.h
-/Users/sarahkaiser/Desktop/Algo_Final/Lexi.h
-JT.h
-/Users/sarahkaiser/Desktop/Algo_Final/JT.h
-iostream
--
-chrono
 -
 fstream
 -
-unordered_map
+random
+-
+algorithm
+-
+chrono
 -
 

@@ -11,37 +11,46 @@ Lexi<T>::Lexi(){
 }
 
 template <typename T>
-void Lexi<T>::shuffle(std::vector<std::pair<std::string,int>> old_vec){
+void Lexi<T>::shuffle(std::vector<std::pair<std::string,int>> old_vec,std::string out_filename) {
     //will need to pass in the specific vector for that input
-    std::cout<<"Shuffling... lexographically!"<<std::endl;
+    std::cout << "Shuffling... lexographically!" << std::endl;
 
-    int n=0;
-    int sos=0;
+
+    int n = old_vec.size();
+    int sos = old_vec.size();
     std::vector<std::string> new_vec;
-
-    int i=0;
-    while(n<old_vec.size()){
-       i=floor(rand()%old_vec.size());
-
-       for(int j=0;j<old_vec.size();j++){
-           if(i==old_vec[j].second){
-               new_vec.push_back(old_vec[i].first);
+    int i = 0;
+    while (n>0) {
+        i = rand() % sos;
+        for(int j=0;j<old_vec.size();j++){
+            if(i==old_vec[j].second){
+                new_vec.push_back(old_vec[j].first);
                 old_vec.erase(old_vec.begin()+j);
-           }
-       }
-     n++;
+                n--;
+            }
+        }
     }//end of while loop
+    outFile.open(out_filename,std::ofstream::app);
 
-    std::cout<<"New vector = ";
-    for(int j=0;j<new_vec.size();j++){
-        std::cout<<new_vec[j]<<" ";
+    if (!outFile.is_open()) {
+        std::cout << "Lexographical Shuffle  = ";
+        for (int j = 0; j < new_vec.size(); j++) {
+            std::cout << new_vec[j] << " ";
+            if(j%10==0){std::cout<<std::endl;}
+        }
+       std::cout<<std::endl;
+    } else {
+        outFile << "Lexographical Shuffle = ";
+        for (int j = 0; j < new_vec.size(); j++) {
+            outFile << new_vec[j] << " ";
+            if(j%10==0){outFile<<std::endl;}
+        }
+        outFile<<"\n\n";
     }
-
+    outFile.close();
 }
 
 template <typename T>
-Lexi<T>::~Lexi(){
-    std::cout<<"Hasta la vista"<<std::endl;
-}
+Lexi<T>::~Lexi(){}
 
 template class Lexi <std::string>;

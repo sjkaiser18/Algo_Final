@@ -1,8 +1,12 @@
-236 microseconds.
-63 microseconds.
-134 microseconds.
-46 microseconds.
-6270 microseconds.
-754 microseconds.
-152329 microseconds.
-2721 microseconds.
+Lexographic Implementation: 408 microseconds.
+Fisher-Yates Implementation: 202 microseconds.
+Mixed Implementation: 152 microseconds.
+Lexographic Implementation: 306 microseconds.
+Fisher-Yates Implementation: 295 microseconds.
+Mixed Implementation: 288 microseconds.
+Lexographic Implementation: 8120 microseconds.
+Fisher-Yates Implementation: 1518 microseconds.
+Mixed Implementation: 1488 microseconds.
+Lexographic Implementation: 118794 microseconds.
+Fisher-Yates Implementation: 5293 microseconds.
+Mixed Implementation: 3468 microseconds.

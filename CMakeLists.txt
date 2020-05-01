@@ -13,7 +13,7 @@ set (EXE_NAME Final)
 
 set (input01 "bingo.txt")
 set (input02 "hoyle.txt")
-set (input03 "survey_sample.txt")
+set (input03 "patient_trials.txt")
 set (input04 "raffle.txt")
 
 #
@@ -25,4 +25,4 @@ foreach(file IN LISTS input01 input02 input03 input04)
 endforeach()
 
 set(CMAKE_CXX_STANDARD 14)
-add_executable(${EXE_NAME} main.cpp JT.h JT.cpp Lexi.h Lexi.cpp)
+add_executable(${EXE_NAME} main.cpp FY.h FY.cpp Lexi.h Lexi.cpp Mix.h Mix.cpp)
